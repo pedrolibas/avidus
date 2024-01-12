@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className="main_container">
       <div className="container">
-        <img src="src\assets\projectAssets\logoAvidus.png" alt="" />
+        <img src="./projectAssets/logoAvidus.png" alt="" />
         <h2>Atos 29: "Nós somos o próximo capítulo"</h2>
         <form>
           <div>

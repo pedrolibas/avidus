@@ -45,14 +45,14 @@ const Dashboard = () => {
               exit();
             }}
           >
-            <img src="src\assets\projectAssets\exitIcon.svg" alt="" />
+            <img src="./projectAssets/exitIcon.svg" alt="" />
           </button>
         </div>
       </header>
       <main>
         <div className="carousel">
           <button className="left" onClick={() => previousImage()}>
-            <img src="src\assets\projectAssets\arrow.svg" alt="" />
+            <img src="./projectAssets/arrow.svg" alt="" />
           </button>
           <div className="container_image">
             {infoUser.content[numContent].type === "image" ? (
@@ -72,7 +72,7 @@ const Dashboard = () => {
             </ul>
           </div>
           <button className="right" onClick={() => nextContent()}>
-            <img src="src\assets\projectAssets\arrow2.svg" alt="" />
+            <img src="./projectAssets/arrow2.svg" alt="" />
           </button>
         </div>
       </main>
