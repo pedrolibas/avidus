@@ -52,104 +52,74 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
-.carousel {
-  width: 70%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.feed {
+  width: 500px;
 
   margin-top: 40px;
 
-  position: relative;
-}
-
-.carousel button {
-  background-color: transparent;
-  
-  border: none;
-
-  cursor: pointer;
-
-  position: absolute;
-
-  opacity: 0.5;
-}
-
-.left {
-  left: 0;
-}
-
-.right{
-  right: 0;
-}
-
-.carousel button img {
-  width: 50px;
-}
-
-
-.container_image {
-  width: 100%;
-}
-
-.container_image img {
-  width: 100%;
-
-  border: 1px #cea474 solid;
-  border-radius: 5px;
-}
-
-.container_image ul{
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  flex-direction: column;
 }
 
-.container_image li {
-  font-size: 30px;
-  color: #cea474;
-  font-weight: 900;
-}
-
-.container_text {
-  width: 100%;
+.card {
+  max-width: 470px;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 
   border: 1px solid #cea474;
   border-radius: 5px;
+
+  margin-bottom: 20px;
 }
 
-.container_sub {
-  width: 90%;
+.header_card {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding-left: 10px
 }
 
-.container_sub h2{
-  text-align: center;
-  color: #cea474;
-  font-weight: 900;
+#profile {
+  width: 32px;
+
+  border: 1px solid #cea474;
+  border-radius: 20px;
+}
+
+.header_card h2 {
   font-size: 18px;
-
-  margin-top: 10px;
-}
-
-.container_sub p {
-  text-align: center;
-  color: #cea474;
   font-weight: 300;
-  font-size: 16px;
-
-  margin: 10px 0 10px 0; 
+  color: #cea474;
 }
 
-@media (max-width: 768px) {
-  .carousel {
+.card img {
+  width: 100%;
+
+  border-radius: 5px;
+}
+
+.card p {
+  width: 98%;
+
+  font-size: 16px;
+  font-weight: 300;
+  color: #cea474;
+
+  margin: 10px 0 10px 0;
+}
+
+@media (max-width: 520px) {
+  .feed {
     width: 100%;
   }
 }

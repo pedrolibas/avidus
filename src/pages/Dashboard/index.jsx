@@ -50,31 +50,18 @@ const Dashboard = () => {
         </div>
       </header>
       <main>
-        <div className="carousel">
-          <button className="left" onClick={() => previousImage()}>
-            <img src="./projectAssets/arrow.svg" alt="" />
-          </button>
-          <div className="container_image">
-            {infoUser.content[numContent].type === "image" ? (
-              <img src={infoUser.content[numContent].data} alt="" />
-            ) : (
-              <div className="container_text">
-                <div className="container_sub">
-                  <h2>{infoUser.content[numContent].data.sender}</h2>
-                  <p>{infoUser.content[numContent].data.content}</p>
-                </div>
+        <ul className="feed">
+          {infoUser.content.map((elem) => (
+            <li className="card">
+              <div className="header_card">
+                <img src="./profileAvidus.png" alt="" id="profile" />
+                <h2>Avidus</h2>
               </div>
-            )}
-            <ul>
-              {infoUser.content.map((elem, i, arr) => (
-                <li id={i}>.</li>
-              ))}
-            </ul>
-          </div>
-          <button className="right" onClick={() => nextContent()}>
-            <img src="./projectAssets/arrow2.svg" alt="" />
-          </button>
-        </div>
+              <img src={elem.data} alt="" />
+              <p>{elem.description}</p>
+            </li>
+          ))}
+        </ul>
       </main>
     </div>
   );

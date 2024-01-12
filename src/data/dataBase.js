@@ -6,7 +6,21 @@ export const dataBase = [
     content: [
       {
         type: "image",
-        data: "srcassets\foto1.jpg",
+        data: "./A02/foto1.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+      {
+        type: "image",
+        data: "./A02/foto2.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+      {
+        type: "image",
+        data: "./A02/foto3.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
       },
     ],
   },
@@ -18,22 +32,20 @@ export const dataBase = [
       {
         type: "image",
         data: "./A02/foto1.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
       },
       {
         type: "image",
         data: "./A02/foto2.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
       },
       {
         type: "image",
         data: "./A02/foto3.jpeg",
-      },
-      {
-        type: "text",
-        data: {
-          sender: "Pedro",
-          content:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a error dolorum doloremque neque vitae. Id consequatur iusto aspernatur eos.",
-        },
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
       },
     ],
   },
@@ -41,10 +53,50 @@ export const dataBase = [
     id: "A03",
     password: "l123",
     name: "Lucas",
+    content: [
+      {
+        type: "image",
+        data: "./A02/foto1.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+      {
+        type: "image",
+        data: "./A02/foto2.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+      {
+        type: "image",
+        data: "./A02/foto3.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+    ],
   },
   {
     id: "A04",
     password: "ac123",
     name: "Ana Clara",
+    content: [
+      {
+        type: "image",
+        data: "./A02/foto1.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+      {
+        type: "image",
+        data: "./A02/foto2.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+      {
+        type: "image",
+        data: "./A02/foto3.jpeg",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+      },
+    ],
   },
 ];
