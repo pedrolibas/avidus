@@ -1,0 +1,45 @@
+.load-wrapp {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f8f7f3;
+}
+
+.line {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #cea474;
+}
+
+.load-7 {
+  width: 310px;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+  border-radius: 6px;
+  background-color: #cea474;
+}
+
+.load-7 .square {
+  animation: loading 3s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(310px, 0) rotate(360deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
