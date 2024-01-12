@@ -115,20 +115,17 @@ main {
   width: 98%;
 
   font-size: 14px;
-  font-weight: 500;
-  color: #cea474;
+  font-weight: 300;
+  color: #000;
 
   margin: 10px 0 10px 0;
-
-
-
 }
 
 .card strong {
-  font-weight: 700;
+  font-weight: 500;
   padding-right: 5px;
-
 }
+
 
 @media (max-width: 520px) {
   .feed {
