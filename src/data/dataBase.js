@@ -32,20 +32,23 @@ export const dataBase = [
       {
         type: "image",
         data: "./A02/foto1.jpeg",
+        sender: "Santa Teresa de Calcutá",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+          "As palavras de amizade e conforto podem ser curtas e sucintas, mas o seu eco é infidável.",
       },
       {
         type: "image",
         data: "./A02/foto2.jpeg",
+        sender: "Santa Teresa de Calcutá",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+          "As palavras de amizade e conforto podem ser curtas e sucintas, mas o seu eco é infidável.",
       },
       {
         type: "image",
         data: "./A02/foto3.jpeg",
+        sender: "Santa Teresa de Calcutá",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquamprovident officiis aliquid dolores fugit autem vel dolor quieveniet et.",
+          "As palavras de amizade e conforto podem ser curtas e sucintas, mas o seu eco é infidável.",
       },
     ],
   },

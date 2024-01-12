@@ -58,7 +58,7 @@ const Dashboard = () => {
                 <h2>Avidus</h2>
               </div>
               <img src={elem.data} alt="" />
-              <p><strong>Pedro Gabriel</strong>{elem.description}</p>
+              <p><strong>{elem.sender}</strong>{elem.description}</p>
             </li>
           ))}
         </ul>
