@@ -16,22 +16,6 @@ const Dashboard = () => {
     }, 2000);
   });
 
-  const previousImage = () => {
-    if (numContent === 0) {
-      setNumContent(infoUser.content.length - 1);
-    } else {
-      setNumContent(numContent - 1);
-    }
-  };
-
-  const nextContent = () => {
-    if (numContent === infoUser.content.length - 1) {
-      setNumContent(0);
-    } else {
-      setNumContent(numContent + 1);
-    }
-  };
-
   return isLoading ? (
     <Loading />
   ) : (
@@ -57,7 +41,7 @@ const Dashboard = () => {
                 <img src="./profileAvidus.png" alt="" id="profile" />
                 <h2>Avidus</h2>
               </div>
-              <img src={elem.data} alt="" />
+              <img src="https://github.com/pedrolibas/avidus/blob/images/a02/foto1.jpeg?raw=true" alt="" />
               <p><strong>{elem.sender}</strong>{elem.description}</p>
             </li>
           ))}
